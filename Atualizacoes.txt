@@ -20,4 +20,16 @@ Descobri que o "readme" é outro tipo de arquivo e que vou renomear esse como "d
 -git branch (mostra os branch's)
 -git branch <nome da branch> (cria uma branch)
 -git checkout <nome da branch> (seleciona a branch)
--
+-git merge <nome da branch a ser incluida na branch selecionada> (tem como finalidade unir as branch's )
+-git pull <branch principal> ()
+-----------------Bons Custumes-------------------- 
++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Sempre que for criar uma branch,faça um git pull  +
++ para sempre garantir que esta tudo atualizado.    +
++ a partir desta nova branch trabalhar na mesma     + 
++ ate terminar os testes.                           +
++ Quando feito ir para branch principal , e fazer   +
++ novamente o pull, só dai pode megiar(unir), o     +
++ codigo temporario com o principal. e depois um    +
++ Git push                                          +
++++++++++++++++++++++++++++++++++++++++++++++++++++++
