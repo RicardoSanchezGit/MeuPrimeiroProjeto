@@ -19,6 +19,7 @@ Descobri que o "readme" é outro tipo de arquivo e que vou renomear esse como "d
 ========================================================================================================================
 -git branch (mostra os branch's)
 -git branch <nome da branch> (cria uma branch)
+-git branch -d
 -git checkout <nome da branch> (seleciona a branch)
 -git merge <nome da branch a ser incluida na branch selecionada> (tem como finalidade unir as branch's )
 -git pull <branch principal> ()
