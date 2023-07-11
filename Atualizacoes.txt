@@ -1,0 +1,12 @@
+Olá Me chamo Ricardo!
+Descobri que o "readme" é outro tipo de arquivo e que vou renomear esse como "diario de aprendizado" colocando aqui os comandos que vou aprendendo no video do "Dev aprender sobre git-github" 
+
+-git init (inicia um git)
+-git status (demosntra os status atuais do seu git)
+-code . (abre o vs code)
+-git add <arquivo> (adciona no git o arquivo ali escrito)
+-git add . (adciona todos arquivos)
+-git commit -m <"nome do commit"> (commita o git , e indexa uma mensagem a ele)
+-git push (passa o seu projeto para a nuvem)
+-git remote add <name> <Url> (adciona seu repositorio criado no GitHub)
+-git push --set-upstream origin master (conecta na sua conta git, e define a branch)
