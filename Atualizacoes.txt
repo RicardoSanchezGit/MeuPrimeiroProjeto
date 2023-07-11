@@ -1,6 +1,8 @@
 Olá Me chamo Ricardo!
 Descobri que o "readme" é outro tipo de arquivo e que vou renomear esse como "diario de aprendizado" colocando aqui os comandos que vou aprendendo no video do "Dev aprender sobre git-github" 
-
+========================================================================================================================
+---------------------------------- PARTE BASICA ------------------------------------------------------------------------
+========================================================================================================================
 -git init (inicia um git)
 -git status (demosntra os status atuais do seu git)
 -code . (abre o vs code)
@@ -10,3 +12,11 @@ Descobri que o "readme" é outro tipo de arquivo e que vou renomear esse como "d
 -git push (passa o seu projeto para a nuvem)
 -git remote add <name> <Url> (adciona seu repositorio criado no GitHub)
 -git push --set-upstream origin master (conecta na sua conta git, e define a branch)
+-git reflog (mostra o historico de versões de cima para baixo)
+-git reset --hard <id do reflog da versão> (Volta no tempo, mais expecificamente para onde for escolhido no historico)
+========================================================================================================================
+---------------------------------- BRANCH ------------------------------------------------------------------------------
+========================================================================================================================
+-git branch (mostra os branch's)
+-git branch <nome da branch> (cria uma branch)
+-git checkout <nome da branch> (seleciona a branch)
