@@ -20,3 +20,4 @@ Descobri que o "readme" é outro tipo de arquivo e que vou renomear esse como "d
 -git branch (mostra os branch's)
 -git branch <nome da branch> (cria uma branch)
 -git checkout <nome da branch> (seleciona a branch)
+-
