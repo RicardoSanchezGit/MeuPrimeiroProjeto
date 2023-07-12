@@ -15,11 +15,16 @@ Descobri que o "readme" é outro tipo de arquivo e que vou renomear esse como "d
 -git reflog (mostra o historico de versões de cima para baixo)
 -git reset --hard <id do reflog da versão> (Volta no tempo, mais expecificamente para onde for escolhido no historico)
 ========================================================================================================================
+---------------------------------- Navegação de Arquivos----------------------------------------------------------------
+========================================================================================================================
+-ls (mostra arquivos e diretorios)
+-cd (entra na pasta ou arquivo Selecionado)
+========================================================================================================================
 ---------------------------------- BRANCH ------------------------------------------------------------------------------
 ========================================================================================================================
 -git branch (mostra os branch's)
 -git branch <nome da branch> (cria uma branch)
--git branch -d
+-git branch -d <nome da branch> (deleta a branch)
 -git checkout <nome da branch> (seleciona a branch)
 -git merge <nome da branch a ser incluida na branch selecionada> (tem como finalidade unir as branch's )
 -git pull <branch principal> ()
