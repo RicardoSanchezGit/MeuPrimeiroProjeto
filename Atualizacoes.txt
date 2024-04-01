@@ -1,0 +1,43 @@
+Olá Me chamo Ricardo!
+Descobri que o "readme" é outro tipo de arquivo e que vou renomear esse como "diario de aprendizado" colocando aqui os comandos que vou aprendendo no video do "Dev aprender sobre git-github" 
+========================================================================================================================
+---------------------------------- PARTE BASICA ------------------------------------------------------------------------
+========================================================================================================================
+-git init (inicia um git)
+-git status (demosntra os status atuais do seu git)
+-code . (abre o vs code)
+-git add <arquivo> (adciona no git o arquivo ali escrito)
+-git add . (adciona todos arquivos)
+-git commit -m <"nome do commit"> (commita o git , e indexa uma mensagem a ele)
+-git push (passa o seu projeto para a nuvem)
+-git remote add <name> <Url> (adciona seu repositorio criado no GitHub)
+-git push --set-upstream origin master (conecta na sua conta git, e define a branch)
+-git reflog (mostra o historico de versões de cima para baixo)
+-git reset --hard <id do reflog da versão> (Volta no tempo, mais expecificamente para onde for escolhido no historico)
+========================================================================================================================
+---------------------------------- Navegação de Arquivos----------------------------------------------------------------
+========================================================================================================================
+-ls (mostra arquivos e diretorios)
+-cd (entra na pasta ou arquivo Selecionado)
+========================================================================================================================
+---------------------------------- BRANCH ------------------------------------------------------------------------------
+========================================================================================================================
+-git branch (mostra os branch's)
+-git branch <nome da branch> (cria uma branch)
+-git branch -d <nome da branch> (deleta a branch)
+-git checkout <nome da branch> (seleciona a branch)
+-git merge <nome da branch a ser incluida na branch selecionada> (tem como finalidade unir as branch's )
+-git pull <branch principal> ()
+--------------------Bons Custumes--------------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Sempre que for criar uma branch,faça um git pull  +
++ para sempre garantir que esta tudo atualizado.    +
++ a partir desta nova branch trabalhar na mesma     + 
++ ate terminar os testes.                           +
++ Quando feito ir para branch principal , e fazer   +
++ novamente o pull, só dai pode megiar(unir), o     +
++ codigo temporario com o principal. e depois um    +
++ Git push                                          +
++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------------------------------------------------
+-touch .gitignore (cria uma lista para arquivos que não queremos que vão para o controle de versão)
